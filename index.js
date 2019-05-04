@@ -12,3 +12,10 @@ console.log(String(amoya));   // expected output "Symbol(twin)"
 
 //The description of a Symbol does not have to be unique
 console.log(moya.toString() === amoya.toString()); 
+
+//Coersion to either string or a number results in a type error for Symbols since Symbol.toString() throws a TypeError when coersion is being  performed
+
+
+//Cannot use addition operator or coersion methods should as Number.parseInt()
+
+ 
